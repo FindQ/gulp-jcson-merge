@@ -1,6 +1,6 @@
 {
   "name": "@findq/gulp-jcson-merge",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Merge JSON and CSON into a singular JSON file",
   "main": "index.js",
   "types": "index.d.ts",
@@ -16,7 +16,8 @@
     "cson",
     "json",
     "merge",
-    "gulp"
+    "gulp",
+    "gulpplugin"
   ],
   "author": "FindQ UF <info@findquf.com>",
   "contributors": [
