@@ -1,0 +1,43 @@
+{
+  "name": "@findq/gulp-jcson-merge",
+  "version": "0.0.1",
+  "description": "Merge JSON and CSON into a singular JSON file",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dts-gen": "./node_modules/dts-gen/bin/lib/run.js --expression-file 'index.js' -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FindQ/gulp-jcson-merge.git"
+  },
+  "keywords": [
+    "cson",
+    "json",
+    "merge",
+    "gulp"
+  ],
+  "author": "FindQ UF <info@findquf.com>",
+  "contributors": [
+    "Joel Eriksson <joel.eriksson@protonmail.com>"
+  ],
+  "maintainers": [
+    "Joel Eriksson <joel.eriksson@protonmail.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FindQ/gulp-jcson-merge/issues"
+  },
+  "homepage": "https://github.com/FindQ/gulp-jcson-merge#readme",
+  "dependencies": {
+    "cson": "^4.1.0",
+    "gulp-util": "^3.0.8",
+    "lodash": "^4.17.4",
+    "through2": "^2.0.3"
+  },
+  "devDependencies": {
+    "dts-gen": "^0.5.6",
+    "gulp": "^3.9.1"
+  }
+}
