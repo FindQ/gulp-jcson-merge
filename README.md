@@ -1,5 +1,7 @@
 # gulp-jcson-merge
 
+## This project is no longer maintained and has been archived.
+
 > Merge JSON and CSON to a singular JSON file.
 
 _All options are passed to [CSON](https://github.com/bevry/cson) any output issues should be reported on the CSON [issue tracker](https://github.com/bevry/cson/issues)._
